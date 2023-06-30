@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="General">
+
+        <SwitchPreference android:title="@string/show_notification_label"
+            android:key="@string/pref_show_notification_replied_msg"
+            app:icon="@drawable/ic_baseline_notifications_24"
+            />
+
+        <Preference android:title="Want to contribute?"
+            android:icon="@drawable/ic_github" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/it5prasoon/Auto-Reply-Android" />
+        </Preference>
+
+        <Preference android:title="Privacy Policy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://it5prasoon.github.io/autoreply/privacy_auto_reply.html" />
+        </Preference>
+
+        <Preference android:title="Terms and Conditions"
+            android:icon="@drawable/ic_baseline_table_rows_24" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://it5prasoon.github.io/autoreply/terms_conditions.html" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Troubleshoot">
+
+        <Preference android:title="@string/enable_auto_start_label"
+            android:icon="@drawable/ic_baseline_not_started_24"
+            android:key="@string/pref_auto_start_permission" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Feedback">
+
+        <Preference android:title="Rate our application"
+            android:icon="@drawable/ic_baseline_star_24" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="market://details?id=xyz.yingshaoxo.calling2email" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
