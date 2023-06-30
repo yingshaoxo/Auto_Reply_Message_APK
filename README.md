@@ -2,6 +2,8 @@
 
 An application developed to provide automatic reply service for instant facebook or whatsapp message.
 
+> I don't know if it's work or not since my facebook account got banned forever for no reason.
+
 <!-- Get it from Playstore:
 
 <a href='https://play.google.com/store/apps/details?id=xyz.yingshaoxo.calling2email&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="60" /></a>
